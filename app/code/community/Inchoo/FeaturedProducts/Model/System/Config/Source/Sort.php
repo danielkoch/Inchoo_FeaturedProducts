@@ -14,7 +14,8 @@ class Inchoo_FeaturedProducts_Model_System_Config_Source_Sort
 	{
 		return array(
 			0 => Mage::helper('adminhtml')->__('Random'),
-			1 => Mage::helper('adminhtml')->__('Last Added')
+			1 => Mage::helper('adminhtml')->__('Last Added'),
+			2 => Mage::helper('adminhtml')->__('Price')
 		);
 	}
 }

@@ -29,6 +29,12 @@ class Inchoo_FeaturedProducts_Block_Listing extends Mage_Catalog_Block_Product_A
             case 1:
                 $this->setSortBy("created_at desc");
                 break;
+            case 2:
+                $this->setSortBy("final_price desc");
+                break;
+            case 3:
+                $this->setSortBy("entity_id desc");
+                break;
             default:
                 $this->setSortBy("rand()");
         }
